@@ -120,6 +120,10 @@ body{
     color:white;
 }
 
+.owner-info{
+    line-height: 1.8;
+}
+
 
 /* Services Scroll */
 
@@ -341,5 +345,12 @@ footer{
     }
     .services-scroll .service-card{
         min-width:280px;
+    }
+    .owner-info span{
+        display: block;
+    }
+
+    .separator{
+        display: none !important;
     }
 }
