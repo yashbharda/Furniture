@@ -141,16 +141,17 @@ body{
 
 /* Fixed Button */
 
-.fixed-home-btn{
-    position:fixed;
-    bottom:20px;
-    left:50%;
-    transform:translateX(-50%);
-    z-index:999;
+.fixed-back-btn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
 }
 
-.fixed-home-btn .btn{
-    border-radius:30px;
-    padding:12px 30px;
-    font-weight:bold;
+.fixed-back-btn .btn{
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    
 }

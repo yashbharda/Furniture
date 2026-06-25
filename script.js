@@ -13,6 +13,25 @@ window.addEventListener("scroll", () => {
     }
 });
 
+const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        const menu = document.getElementById("menu");
+
+        const bsCollapse =
+            bootstrap.Collapse.getInstance(menu);
+
+        if (bsCollapse) {
+            bsCollapse.hide();
+        }
+
+    });
+
+});
+
 // Smooth Scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
